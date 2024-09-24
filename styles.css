@@ -1,0 +1,47 @@
+#qr-code-container {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 2147483647 !important; /* Highest possible z-index */
+  background-color: white !important;
+  padding: 10px !important;
+  border-radius: 5px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  display: block !important;
+  width: 276px !important; /* 256px + 20px padding */
+  height: auto !important;
+  min-height: 276px !important;
+}
+
+#qr-code-container * {
+  all: initial !important;
+}
+
+#qr-code-container canvas {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+#qr-code-logo {
+  display: none !important;
+}
+
+#qr-code-info {
+  text-align: center !important;
+  margin-top: 10px !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 12px !important;
+}
+
+#qr-code-info p {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: black !important;
+}
+
+/* Debug element style */
+#qr-code-debug {
+  font-family: Arial, sans-serif !important;
+  font-size: 12px !important;
+  color: black !important;
+}
