@@ -22,6 +22,10 @@
   margin: 0 auto !important;
 }
 
+#qr-code-container img {
+  display: none !important;
+}
+
 #qr-code-logo {
   display: none !important;
 }
